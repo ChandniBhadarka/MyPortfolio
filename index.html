@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandni Bhadarka - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Chandni.</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blogs" class="nav-link">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#profile" class="nav-link">Profile</a>
+                </li>
+            </ul>
+            <button class="mobile-toggle" onclick="toggleMobileMenu()">
+                <span id="toggle-icon">☰</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-wrapper">
+        <div class="home-container">
+            <div class="left-content">
+                <div class="greeting">Hello, I'm</div>
+                <h1 class="name">Chandni Bhadarka</h1>
+                <h2 class="title">Data Scientist & AI Enthusiast</h2>
+                <p class="description">
+                    I am a data scientist driven by curiosity and purpose — turning raw data into actionable insights and intelligent systems. My work involves exploring complex datasets, building predictive models, and applying deep learning, NLP, and advanced analytics to solve critical business and research problems. I have hands-on experience with tools like Python, TensorFlow, Scikit-learn, Pandas, and SQL, and frequently contribute to real-world datasets via Kaggle, GitHub, and research-based projects. 
+                </p>
+                
+                <div class="social-links">
+                    <a href="https://github.com/ChandniBhadarka" class="social-link" target="_blank">
+                        <svg class="social-icon" viewBox="0 0 24 24">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/chandnibhadarka/" class="social-link" target="_blank">
+                        <svg class="social-icon" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+                
+                <a href="#" class="download-btn" onclick="downloadCV()">Download CV</a>
+            </div>
+            
+            <div class="right-content">
+                <div class="gif-container">
+                    <div class="gif-placeholder">
+                        <img src="images/img1.jpeg" alt="Portfolio Image" class="gif-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-wrapper">
+        <div class="about-container">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Hi there! My name is Chandni Bhadarka</h3>
+                        <p>My journey is fueled by two passions: technology and data science. My name itself, "Chandni," embodies dedication, a quality I strive to bring to every aspect of my life, especially my work.</p>
+                    </div>
+                    
+                    <div class="about-description">
+                        <p>This portfolio showcases my skills and experiences in both the technical and analytical realms. Dive in and explore my projects, blogs, and other profiles. I'm excited to share my journey and connect with you!</p>
+                        
+                        <p>I specialize in transforming complex data into meaningful insights through machine learning, statistical analysis, and data visualization. My expertise spans across various domains including predictive modeling, natural language processing, and deep learning applications.</p>
+                        
+                        <p>With a strong foundation in Python, TensorFlow, and various data science libraries, I'm passionate about solving real-world problems through data-driven solutions. I believe in the power of data to drive innovation and make informed decisions.</p>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Months Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Models Trained</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="experience-education">
+                <div class="exp-edu-section">
+                    <h3 class="section-heading">Experience <span class="separator">|</span> Education</h3>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">Data Science Intern</div>
+                                <div class="timeline-company">Purezza Technologies</div>
+                                <div class="timeline-date">July 2024 - April 2025</div>
+                                <div class="timeline-description">
+                                    Developing machine learning models for predictive analytics and working on real-world datasets to solve business problems. Collaborated with cross-functional teams to implement data-driven solutions.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">Data Scientist</div>
+                                <div class="timeline-company">TriHandshake</div>
+                                <div class="timeline-date">2025 - present</div>
+                                <div class="timeline-description">
+                                    Conducted research on NLP applications and contributed to published papers on sentiment analysis and text classification. Worked with large datasets and implemented various machine learning algorithms.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-title">B.Tech in Information and Communication Technology</div>
+                                <div class="timeline-company">Marwadi University</div>
+                                <div class="timeline-date">2021 - 2025</div>
+                                <div class="timeline-description">
+                                    Graduated with honors and completed multiple capstone projects.Studied fundamental software engineering subjects, including C, C++, Java, Python, AI, CV, DSA, OS, DBMS, Networking, etc. In addition to my academic coursework, I expanded my skills in Data Science, ML, DL, NLP, LLMs, Gen AI, AI agents and Web Development.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill section -->
+
+    <section id="skills" class="skills-wrapper">
+        <div class="skills-container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+                <p class="section-subtitle">Technologies and expertise I work with</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🧠</div>
+                    <h3 class="skill-title">AI-ML</h3>
+                    <p class="skill-description">
+                        I'm familiar with the fundamentals of machine learning, including supervised and unsupervised learning, natural language processing (NLP), and deep learning frameworks like TensorFlow and PyTorch.
+                    </p>
+                    <div class="skill-level">
+                        <span class="skill-level-text">Advanced</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-fill" data-width="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3 class="skill-title">Object Oriented Programming</h3>
+                    <p class="skill-description">
+                        I have a strong grasp of OOP concepts, including encapsulation, inheritance, polymorphism, and abstraction. I'm able to apply these principles effectively to design and implement well-structured, reusable code.
+                    </p>
+                    <div class="skill-level">
+                        <span class="skill-level-text">Expert</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-fill" data-width="95"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🔍</div>
+                    <h3 class="skill-title">Data Structures & Algorithms</h3>
+                    <p class="skill-description">
+                        Proficient in implementing and optimizing various data structures and algorithms. Strong problem-solving skills with experience in algorithmic thinking and complexity analysis for efficient solutions.
+                    </p>
+                    <div class="skill-level">
+                        <span class="skill-level-text">Advanced</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3 class="skill-title">Web Development</h3>
+                    <p class="skill-description">
+                        I'm proficient in building web applications using HTML, CSS, and JavaScript, with a strong focus on responsive design and user experience. I also have a basic understanding of WordPress, which I use to create and customize websites efficiently.
+                    </p>
+                    <div class="skill-level">
+                        <span class="skill-level-text">Intermediate</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-fill" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">✍️</div>
+                    <h3 class="skill-title">Content Writing</h3>
+                    <p class="skill-description">
+                        Skilled in creating engaging technical content, documentation, and blog posts. Experience in translating complex technical concepts into accessible, well-structured written content for diverse audiences.
+                    </p>
+                    <div class="skill-level">
+                        <span class="skill-level-text">Intermediate</span>
+                        <div class="skill-progress">
+                            <div class="skill-progress-fill" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-wrapper">
+        <div class="projects-container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">Some of my recent work and contributions</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <!-- <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/71766F/ffffff?text=Project+1" alt="Project 1" class="project-img">
+                    </div> -->
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h3 class="project-title">Reviewer Recommendation System for Peer-Review Process</h3>
+                            <p class="project-description">
+                                This project benchmarked 12 NLP models on 50,000+ academic abstracts to optimize reviewer selection, with SBERT emerging as the most effective, achieving 99% sentence similarity and enhancing recommendation accuracy. A Flask-based API was deployed to deliver real-time, scalable reviewer recommendations for academic publishing platforms.Conducted research on NLP applications and contributed to published papers on sentiment analysis and text classification. Worked with large datasets and implemented various machine learning algorithms.
+
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ChandniBhadarka/Reviewer-Recommendation-System-for-Peer-Review-Process" class="project-link" target="_blank">
+                                <svg class="link-icon" viewBox="0 0 24 24">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images\img2.jpeg" alt="Project 1" class="project-img">
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <!-- <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/71766F/ffffff?text=Project+2" alt="Project 2" class="project-img">
+                    </div> -->
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h3 class="project-title">Mammogram Cancer Detection</h3>
+                            <p class="project-description">
+                                Developed and tested 8 deep learning models on the Mini-DDSM mammogram dataset to classify images as malignant or benign. Optimization and validation tuning led to an AUC of 0.96 and precision of 0.92, demonstrating high diagnostic accuracy.
+
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Computer Vision</span>
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ChandniBhadarka?tab=repositories" class="project-link" target="_blank">
+                                <svg class="link-icon" viewBox="0 0 24 24">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <!-- <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/71766F/ffffff?text=Project+3" alt="Project 3" class="project-img">
+                    </div> -->
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h3 class="project-title">Sentiment Analysis Chatbot</h3>
+                            <p class="project-description">
+                                Developed an interactive chatbot with sentiment analysis using NLTK and SpaCy, capable of classifying user input as positive, negative, or neutral. The model achieved 85% accuracy on a manually labeled dataset, enabling more context-aware and empathetic responses.
+
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">NLP</span>
+                                
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ChandniBhadarka?tab=repositories" class="project-link" target="_blank">
+                                <svg class="link-icon" viewBox="0 0 24 24">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <!-- <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/71766F/ffffff?text=Project+4" alt="Project 4" class="project-img">
+                    </div> -->
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h3 class="project-title">Health Report Analyzer</h3>
+                            <p class="project-description">
+                                Led a 4-member team at the Datathrone Hackathon to build a web-based medical report analyzer using OCR and YAKE for keyword extraction. The tool enabled users to upload scanned health reports and achieved 87% accuracy in extracting and classifying disease names from unstructured data.
+
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Flask</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ChandniBhadarka?tab=repositories" class="project-link" target="_blank">
+                                <svg class="link-icon" viewBox="0 0 24 24">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <!-- <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/71766F/ffffff?text=Project+5" alt="Project 5" class="project-img">
+                    </div> -->
+                    <div class="project-content">
+                        <div class="project-info">
+                            <h3 class="project-title">E-Bus Travelmate</h3>
+                            <p class="project-description">
+                                Designed and built a Flutter-based mobile travel app allowing users to purchase tickets, track route history, and manage travel passes. Integrated a QR code scanning system for seamless fare deduction and travel validation, enhancing convenience for urban commuters.
+
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flutter Application</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ChandniBhadarka/E-Bus-Travelmate" class="project-link" target="_blank">
+                                <svg class="link-icon" viewBox="0 0 24 24">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="more-projects">
+                <a href="https://github.com/ChandniBhadarka" class="more-projects-btn" target="_blank">
+                    <svg class="link-icon" viewBox="0 0 24 24">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                    View More Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blogs" class="blogs-wrapper">
+    <div class="blogs-container">
+        <div class="section-header">
+        <h2 class="section-title">My <span class="highlight">Blogs</span></h2>
+        <p class="section-subtitle">Thoughts, insights, and stories from my journey</p>
+        </div>
+
+        <div class="blogs-grid">
+        <!-- Blog Post 1 -->
+        <div class="blog-card">
+            <h3 class="blog-title">Diwali Through the Lens of Artificial Intelligence</h3>
+            <p class="blog-summary">
+            Who would’ve thought Diwali could get a tech twist?  Who knew technology could add a festive spark? Can you imagine a Diwali where your home lights up just the way you want with a single voice command? Imagine Diwali celebrations powered by a digital touch! 
+            </p>
+            <a href="https://medium.com/@chandnibhadarka/diwali-through-the-lens-of-artificial-intelligence-b4c57f0606a1" class="blog-link" target="_blank">Read More →</a>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="blog-card">
+            <h3 class="blog-title">Introduction to Generative Ai</h3>
+            <p class="blog-summary">
+            Imagine yourself as a scientist, standing in a lab filled with data and making groundbreaking discoveries. And having an amazing machine that can write research papers also analyze data, generate hypotheses, and perform many more helpful tasks.
+            </p>
+            <a href="https://medium.com/@chandnibhadarka/introduction-to-generative-ai-76eb7fba3064" class="blog-link" target="_blank">Read More →</a>
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="blog-card">
+            <h3 class="blog-title">Graph based Image Segmentation</h3>
+            <p class="blog-summary">
+            Graph‑based image segmentation offers a powerful way to partition images by modeling pixels as graph vertices and using affinity-weighted edges to determine optimal cuts, with normalization helping avoid bias toward small regions.
+            </p>
+            <a href="https://medium.com/@chandnibhadarka/graph-based-image-segmentation-8a89fc162f56" class="blog-link" target="_blank">Read More →</a>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Profile Section -->
+        <section id="profile" class="profile-section">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Other Profiles</span></h2>
+            </div>
+
+            <!-- Carousel Container -->
+            <div class="carousel-container">
+                <!-- Navigation Arrows -->
+                <button class="carousel-nav prev" id="prevBtn" aria-label="Previous slide">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                </button>
+                <button class="carousel-nav next" id="nextBtn" aria-label="Next slide">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
+
+                <!-- Carousel Wrapper -->
+                <div class="carousel-wrapper">
+                    <div class="carousel-track" id="carouselTrack">
+                        <!-- LeetCode Slide -->
+                        <div class="carousel-slide active" data-platform="leetcode">
+                            <div class="slide-content">
+                                <div class="profile-image">
+                                    <img src="images\leetcode-profile.png" alt="LeetCode Profile Dashboard" />
+                                </div>
+                                <div class="platform-link">
+                                    <a href="https://leetcode.com/u/chandni_bhadarka/" target="_blank" rel="noopener">
+                                        <span class="platform-name">LeetCode</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- GitHub Slide -->
+                        <div class="carousel-slide" data-platform="github">
+                            <div class="slide-content">
+                                <div class="profile-image">
+                                    <img src="images\github-profile.png" alt="GitHub Profile Dashboard" />
+                                </div>
+                                <div class="platform-link">
+                                    <a href="https://github.com/ChandniBhadarka" target="_blank" rel="noopener">
+                                        <span class="platform-name">GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- HackerRank Slide -->
+                        <div class="carousel-slide" data-platform="hackerrank">
+                            <div class="slide-content">
+                                <div class="profile-image">
+                                    <img src="images\hackerrank-profile.png" alt="HackerRank Profile Dashboard" />
+                                </div>
+                                <div class="platform-link">
+                                    <a href="https://www.hackerrank.com/profile/chandnibhadarka" target="_blank" rel="noopener">
+                                        <span class="platform-name">HackerRank</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CodeChef Slide -->
+                        <div class="carousel-slide" data-platform="codechef">
+                            <div class="slide-content">
+                                <div class="profile-image">
+                                    <img src="images\codechef-profile.png" alt="CodeChef Profile Dashboard" />
+                                </div>
+                                <div class="platform-link">
+                                    <a href="https://www.codechef.com/users/chandni_08" target="_blank" rel="noopener">
+                                        <span class="platform-name">CodeChef</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button class="indicator active" data-slide="0" aria-label="Go to slide 1"></button>
+                    <button class="indicator" data-slide="1" aria-label="Go to slide 2"></button>
+                    <button class="indicator" data-slide="2" aria-label="Go to slide 3"></button>
+                    <button class="indicator" data-slide="3" aria-label="Go to slide 4"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- js file -->
+    <script src="script.js"></script>    
+</body>    
+</html>
