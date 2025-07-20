@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize - show home section by default
     showSection('home');
     
-    // Other existing functions...
+   
     
     // CV Download function
     window.downloadCV = function() {
