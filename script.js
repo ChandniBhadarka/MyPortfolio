@@ -1,4 +1,4 @@
-// Single Page Navigation Script - Fixed Version
+
 document.addEventListener('DOMContentLoaded', function() {
     let profileCarousel; // Store carousel instance
     
